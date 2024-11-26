@@ -13,12 +13,16 @@ def remove_domain(email: list[str]) -> list[str]:
     
     half = []
     for e in email:
-        if e == str(e):
-           if "@" in e:
-               email = e.split("@")
-               email.pop()
-               half.append(email)
+        if e == str(e) and "@" in e:
+            removal = e.split("@")
+            half.append(removal[0])
+        elif e == str(e) and "@" not in e:
+            return email
+        elif email == [""]:
+            return email
         else:
              return -1
-        return half
+    return half
+        
 
+print(remove_domain([]))
