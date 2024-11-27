@@ -24,4 +24,3 @@ def remove_domain(email: list[str]) -> list[str]:
              return -1
     return first_half
         
-print(remove_domain(['1@yahoo.com']))

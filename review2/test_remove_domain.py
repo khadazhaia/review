@@ -7,7 +7,7 @@ print("remove_domain(['test@gmail.com'])",
       remove_domain(['test@gmail.com']) == ['test'])
 
 print("remove_domain(['1@yahoo.com'])",
-      remove_domain(['1@yahoo.com']) == ['yahoo'])
+      remove_domain(['1@yahoo.com']) == ['1'])
 
 print("remove_domain(['test'])",
       remove_domain(['test']) == ['test'])
