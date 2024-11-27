@@ -11,8 +11,6 @@ def remove_domain(email: list[str]) -> list[str]:
         list[str]: The list with modified strings
     """
     
-    if email == [""]:
-           return email
     first_half = []
     for e in email:
         if e == str(e) and "@" in e:
