@@ -23,4 +23,6 @@ def remove_domain(email: list[str]) -> list[str]:
         else:
              return -1
     return first_half
+
+
         
