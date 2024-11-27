@@ -18,7 +18,6 @@ def remove_domain(email: str) -> str:
         return email
     elif email == '':
         return ''
-   ""
 
 
 # Implement a function that calculates the area of a cube.
